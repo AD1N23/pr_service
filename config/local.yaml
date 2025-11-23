@@ -1,0 +1,6 @@
+env: "local"
+storage_path: "postgres://postgres:postgres@db:5432/pr_db?sslmode=disable"
+http_server:
+  address: "0.0.0.0:8080" 
+  timeout: 4s
+  idle_timeout: 60s
